@@ -1,0 +1,39 @@
+
+#navbar{
+    flex-direction: column;
+   
+}
+
+#navbar ul li{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+
+
+/* card */
+.cardcontainer{
+    flex-direction: column;
+    box-sizing: unset;
+}
+
+.card{
+    width: 93%;
+    /* margin: 5px; */
+    margin-bottom: 15px;
+}
+
+.faclity-card{
+    box-shadow: 5px 5px 50px rgb(240, 228, 161);
+    background-color: rgb(243, 235, 225);
+    /* border: 2px solid red; */
+   margin: 15px;
+    display: flex;
+    flex-direction: column;
+    /* height: 500px; */
+}
+
+.faccardimg img{
+    border-radius: 5px;
+    width: 100%;
+}

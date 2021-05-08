@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(255, 253, 251);
+}
+
+
+.continer{
+    box-shadow: rgb(189, 108, 27)  ;
+    padding: 5px;
+    /* border: 2px solid red; */
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    background-color:  rgb(250, 236, 221);
+}
+#bodyp{ 
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(87, 64, 2);
+}
+
+/* .card-continer{
+   
+} */
+
+.outercard{
+    display: flex;
+    margin: 20px 10px;
+    background-color:  rgb(247, 215, 181);
+    /* border: 2px solid blue; */
+    box-sizing: border-box;
+}
+
+.roomimage{
+    width: 515px;
+
+}
+
+.roomimage img{
+        width: 100%;
+        height: 100%;
+}
+
+#gallery{
+    font-size: 2rem;
+    color: rgb(58, 32, 15);
+    text-decoration: none;
+
+    /* border: 2px solid  rgb(46, 25, 2);
+    border-radius: 5px;
+    background-color: aliceblue; */
+}
+
+.roombtn{
+    margin-left: 15px;
+    background-color:rgb(243, 140, 30);
+    outline: none;
+    padding: 5px;
+    font-size: 1.1rem;
+    color: rgb(43, 38, 13);
+    cursor: pointer;
+    border: 2px solid rgb(243, 140, 30);
+    border-radius: 10px;
+}
+
+.outercard h1{
+    font-size: 1.8rem;
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.outercard p{
+    margin: 16px;
+    font-size: 1.1rem;
+}
+
+.r-roomicon img{
+    width: 30px;
+    margin-left: 25px;
+}
+.r-roomicon{
+    margin: 15px
+}
+.r-roomiconspan{
+    margin-left: 10px;
+}
+
+.r-roombook{
+    font-size: 1.2rem;
+    outline-style: none;
+    background-color: rgb(238, 160, 58);    
+    border: 2px solid rgb(238, 160, 58); 
+    border-radius: 5px;    
+    margin: 25px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+#footer p{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#footer{
+    height: 100px;
+}

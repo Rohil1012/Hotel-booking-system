@@ -1,0 +1,140 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: rgb(245, 242, 239);
+}
+.bookingnavbar{
+    margin: 20px;
+
+}
+.bookingnavbar a{
+    text-decoration: none;
+    margin: 10px 15px;
+}
+/* date picker*/
+
+#where{
+    width: 180px; 
+    height: 43px;
+}
+
+#room{
+    /* width: 100px; */
+    height: 43px;
+}
+.datapicker{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: rgb(243, 209, 174);
+    width: 80%;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.datapicker input{
+    font-family: 'Lato', sans-serif;
+    padding: 10PX;
+}
+
+.datapicker input,select{ 
+    font-family: 'Lato', sans-serif;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1.1rem;   
+}
+
+/* information */
+.outerinfo{
+    width: 80%;
+    /* height: 500px; */
+    margin: 20px auto;
+    display: flex;
+    background-color: rgb(243, 209, 174);
+}
+.customerinfo1{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px; 
+}
+
+.customerinfo1 input{
+    font-family: 'Lato', sans-serif;
+    padding: 7px;
+    outline: none;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    margin: 20px 50px;
+}
+.customerinfo2{
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 10px; 
+}
+
+.lableinfo{
+    margin-bottom: 20px;
+}
+
+.lableinfo label,input{
+    outline: none;
+    border: none;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+#submitbtn{
+    border: 2px solid black;
+    background-color: rgb(236, 187, 51);
+    margin-top: 15px;
+    color: 1.5rem;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.checkbooking{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* height: 100px; */
+    /* background-color: rgb(243, 209, 174); */
+    width: 80%;
+    /* align-items: center; */
+    margin: 20px auto;
+}
+
+.checkbooking a{
+    text-decoration: none;
+    margin: 5px;
+    color: rgb(250, 67, 11);
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.terms{
+    background-color: rgb(243, 209, 174);
+    border: 0px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: red;
+}
+
+
+
+#footer p{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#footer{
+    height: 100px;
+}
+
+
+

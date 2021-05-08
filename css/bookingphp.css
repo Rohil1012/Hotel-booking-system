@@ -1,0 +1,33 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.info{
+    width: 80%;
+    margin: 10px auto;
+    background-color: rgb(240, 226, 212);
+}
+
+.lablel{
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 6px;
+}
+
+.bttttn{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    border: none;
+    margin-left: 45%;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 5px;
+    outline: none;
+
+    background-color: rgb(235, 185, 135);
+}
+/* 
+.info label{
+    /* margin: 50px; 
+} */

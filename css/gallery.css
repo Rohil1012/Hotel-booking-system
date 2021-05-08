@@ -1,0 +1,32 @@
+.body{
+    font-family: 'Lato', sans-serif;
+}
+
+.continer{
+    box-shadow: rgb(189, 108, 27)  ;
+    padding: 5px;
+    /* border: 2px solid red; */
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    background-color:  rgb(250, 236, 221);
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(219 149 78);
+}
+
+.image{
+    display: flex;
+    /* display: block; */
+}
+
+.image img{
+    margin: 10px auto;
+    display: block;
+    width: 48%;
+}
+

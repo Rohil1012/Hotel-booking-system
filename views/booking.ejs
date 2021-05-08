@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/popup.css">
+    <link rel="stylesheet" href="../css/booking.css">
+    <link rel="stylesheet" media="screen and (max-width:1480px)" href="../css/bookingphone.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+    <script src="../js/booking.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <img src="../img/hotellogo.jpg" alt="hotelcrown" id="logo">
+        <ul>
+            <li class="navli"><a href="/">Home</a></li>
+            <li class="navli"><a href="rooms">Rooms</a></li>
+            <li class="navli"><a href="booking">Booking</a></li>
+            <li class="navli"><a href="contectus">Contact us</a></li>
+        </ul>
+    </nav>
+
+        
+    <form action="/booking" method="POST" style="font-family: 'Lato', sans-serif;">
+        <div class="datapicker">
+            <select name="city" id="where" aria-placeholder="where?" required>
+                <option style="text-align: center;" value="city">--Select City--</option>
+                <option value="Mumbai">Mumbai, maharashtra</option>
+                <option value="Jodhpur">Jodhpur, rajasthan</option>
+                <option value="Jaipur">Jaipur , rajasthan</option>
+                <option value="Udaipur">Udaipur, rajasthan </option>
+                <option value="Hyderabad">Hyderabad, Telangana</option>
+                <option value="Madikeri">Madikeri, Karnataka</option>
+                <option value="Bekaal">Bekaal, Kerla</option>
+                <option value="Munnar">Munnar, kerla</option>
+                <option value="Bengaluru">Bengaluru, Karnataka</option>
+                <option value="Mussoorie">Mussoorie, Uttarakhand</option>
+            </select>
+            <input type="text" name="checkin" id="checkin" placeholder="Check In" required>
+             <input type="text" name="checkout" id="checkout" placeholder="Check Out" required>
+
+            <select name="room" id="room" required>
+                <option value="rooms">--Rooms--</option>
+                <option value="Grand Presidential Suite">Grand Presidential Suite</option>
+                <option value="Grand Royal Suite">Grand Royal Suite</option>
+                <option value="Royal Suite">Royal Suite</option>
+                <option value="Historical Suite">Historical Suite</option>
+                <option value="Palace Room">Palace Room</option>
+                <option value="Luxury Room">Luxury Room</option>
+            </select>
+        </div>
+        <div class="outerinfo">
+
+            <div class="customerinfo1">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="phone" name="phone" placeholder="Phone Number" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+            </div>
+
+            <div class="customerinfo2">
+                <div class="lableinfo">
+                    <label>Number of Room:</label>
+                    <input type="number" name="numberroom" value="1" min="1" max="5">
+                </div>
+                <div class="lableinfo">
+                    <label>Adult:</label>
+                    <input type="number" name="adult" value="1" min="1" max="5">
+                </div>
+                <div class="lableinfo">
+                    <label>Children(Age below 12):</label>
+                    <input type="number" name="child" value="0" min="0" max="5">
+                </div>
+                <div class="lableinfo">
+                    <label>Pickup Point: </label>
+                    <input type="radio" name="pickup" value="Airport" style="margin: 4px;" > Ariprot
+                    <input type="radio" name="pickup" value="Railway Station" style="margin: 4px;">Railway Station
+                    <input type="radio" name="pickup" value="Bus Station" style="margin: 4px;"> Bus Station
+                </div>
+
+                <div class="lableinfo" style="margin-top: 50px;">
+                    
+                    <input type="checkbox" required><label style="color: red;"></label> <button id="myBtn" class="terms" onclick="terms()" class="roombtn"> Terms and Conditions</button>
+
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h1 style="text-align: center;"> Terms & condtion </h1>
+                            <div class="popup">
+                                <p style="font-size: 1.2rem; ">
+                                    
+                                    1.Check-in time 11:00 am and Check-out time will be 10:00 am sharp. <br>
+                                    2 Once Booking is confirmed, Check-in date CANNOT change. <br>
+                                    3.Photo-Id of the Guest is required at the time of arrival, else rooms will not be alloted. <br>
+                                    4.Extra persons(s) will be charged as actual per day per person. <br>
+                                    5.Room Keys to be collected from CENTRAL BOOKING OFFICE. <br>
+                                
+                                <strong style="color: red;">
+                                    6.As per government notification, all guest and family members should produce their valid
+                                    photo identity card/proof at booking office during check-in. Without valid identity
+                                    card/proof, rooms will not be alloted. <br>
+                                    7.Wearing Mask is Compulsory. <br>
+                                    8.Use Hand Sanitizer Before & After Filling Form. <br>
+                                    9.Temperature Measurement is Compulsory. <br>
+                                    10. Administration have marked Circles and Foot Marks in Booking Office and Guest House,
+                                    follow them for maintaining Social Distancing. <br>
+                                    11.Cooperate with the On Duty Staff. They are there to Help you. <br>
+                                    12.Avoid Gathering during your stay in Guest house. Stay inside your rooms. <br>
+                                    13.Do not Touch Railings, Lift and any other Things kept in Guest house. <br>
+                                    14.Maintain Social Distance. <br>
+                                    15.Follow the Instructions / guidelines Given by the District & Trust’s Administrations.
+                                </strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <input type="submit" id="submitbtn" value="Book now">
+            </div>
+        </div>  
+
+    </form>
+    <div class="checkbooking">
+        <a href="/cancle">Booking Cancellation <img src="../img/enter.png" alt="" width="25px"></a>
+        <a href="/recipt">Booking Receipt <img src="../img/enter.png" alt="" width="25px"></a>
+    </div>
+
+
+
+
+    <footer id="footer">
+        <p style="text-align: center;">Follow Us</p>
+        <div style="margin-top: 10px; text-align: center;">
+          Copyright &copy; www.hotelcrown.com |  All Rights Reserved.
+    </div>
+      </footer>
+</body>
+<script src="../js/pop.js"></script>/script>
+</html>

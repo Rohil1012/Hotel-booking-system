@@ -1,0 +1,192 @@
+@media (max-width:1480px) and (min-width:1181px){
+    #where{
+        width: 200px; 
+    }
+    #room{
+        width: 350px;
+    }
+    .datapicker input{
+        width: 150px;
+    }
+}
+
+
+@media (max-width:1180px) and (min-width:921px){
+    #where{
+        width: 150px; 
+    }
+    
+    #room{
+        width: 300px;
+    }
+
+    .datapicker input{
+        width: 100px;
+    }
+
+}
+
+@media (max-width:920px) and (min-width:871px){
+    #where{
+        width: 150px; 
+    }
+    
+    #room{
+        width: 200px;
+    }
+
+    .datapicker input{
+        width: 100px;
+    }
+
+    .customerinfo1{
+        margin: 20px 1px; 
+    }
+
+    .customerinfo2{
+        margin: 40px 3px; 
+    } 
+}
+
+
+
+@media (max-width:870px) and (min-width:761px){
+    #where{
+        width: 120px; 
+    }
+
+    #room{
+        width: 150px;
+    }
+
+    .datapicker input{
+        width: 80px;
+    }
+
+    .datapicker input,select{ 
+        font-size: .95rem;   
+    }
+    .customerinfo1{
+        margin: 20px 0px; 
+    }
+    .customerinfo2{
+        margin: 40px 0px; 
+    } 
+
+    .customerinfo1 input{
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width:760px) and (min-width:651px){
+
+    #where{
+        width: 100px; 
+    }
+
+    #room{
+        width: 120px;
+    }
+
+    .datapicker input{
+        width: 80px;
+        padding: 10PX;
+    }
+
+    .datapicker input,select{ 
+        font-size: .90rem;   
+    }
+    .customerinfo1{
+        margin: 20px 0px; 
+    }
+    .customerinfo2{
+        margin: 40px auto; 
+    } 
+
+    .customerinfo1 input{
+        margin: 20px auto;
+    }
+
+    .outerinfo{
+        width: 80%;
+        /* height: 500px; */
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(243, 209, 174);
+    }
+  
+    .datapicker{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+        height: 100px;
+        background-color: rgb(243, 209, 174);
+        width: 80%;
+        align-items: center;
+        margin: 20px auto;
+    }
+}
+
+@media (max-width:651px){
+
+    #navbar{
+        flex-direction: column;
+       
+    }
+    
+    #navbar ul li{
+        padding: 10px;
+    font-size: 1.2rem;
+    }
+
+    #where{
+        width: 200px;
+    }
+
+    #room{
+        width: 200px;
+    }
+
+    
+    .datapicker input{
+        width: 188px;
+        padding: 10PX;
+    }
+
+    .datapicker input,select{ 
+        font-size: .90rem;   
+    }
+    .customerinfo1{
+        margin: 20px 0px; 
+    }
+    .customerinfo2{
+        margin: 40px auto; 
+    } 
+
+    .customerinfo1 input{
+        width: 200px;
+        margin: 20px auto;
+    }
+
+    .outerinfo{
+        width: 80%;
+        /* height: 500px; */
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(243, 209, 174);
+    }
+  
+    .datapicker{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 150px;
+        background-color: rgb(243, 209, 174);
+        width: 80%;
+        align-items: center;
+        margin: 20px auto;
+    }
+    
+}

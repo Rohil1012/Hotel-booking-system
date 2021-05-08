@@ -1,0 +1,43 @@
+@media (max-width:781px) and (min-width:561px){
+
+    .con-contectus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+}
+
+
+
+
+@media (max-width:559px){
+    #navbar{
+        flex-direction: column;
+       
+    }
+    
+    #navbar ul li{
+        padding: 10px;
+    font-size: 1.2rem;
+    }
+    
+    
+    .con-contectus{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+    }
+    
+    .form-group input{
+        border: 2px solid rgb(112, 112, 112);
+        width: 35vh;
+        border-radius: 10px;
+        outline: none;
+        padding: 5px;
+    }
+    
+}

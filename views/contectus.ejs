@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contect us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/contectus.css">
+    <link rel="stylesheet" media="screen and (max-width: 781px)" href="../css/contectusphone.css">
+    
+</head>
+<body>
+    <nav id="navbar">
+        <img src="../img/hotellogo.jpg" alt="hotelcrown" id="logo">
+        <ul>
+            <li class="navli"><a href="/">Home</a></li>
+            <li class="navli"><a href="rooms">Rooms</a></li>
+            <li class="navli"><a href="booking">Booking</a></li>
+            <li class="navli"><a href="contectus">Contact us</a></li>
+        </ul>
+    </nav>
+
+   
+    <div class="conatiner">
+        <h1>Contact US</h1>
+    
+        <section class="con-contectus">
+     <div id="form">
+        <form action="/contectus" method="POST" style="font-family: 'Lato', sans-serif;">
+            <div class="form-group">
+                <label for="name">Name: </label>
+                <input type="text" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Email: </label>
+                <input type="email" name="email" placeholder="Enter your E-mail" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Phone number: </label>
+                <input type="phone" name="phone" placeholder="Enter your phone" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Message: </label>
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-group" id="submit">
+                <input type="submit">
+            </div>
+            <div class="form-group" id="reset">
+                <input type="reset">
+            </div>
+        </form>
+    </div>
+    <div id="contact">
+        <div class="cont">
+                 <img src="../img/mail.jpg" alt="" class="imglogo"> <span class="about">hotel.crown@gmail.com</span>
+        </div>
+        <div class="cont">
+            <img src="../img/telephone.png" alt="" class="imglogo"> <span class="about">+(125) 9852637</span>
+        </div>
+        <div class="cont">
+            <img src="../img/phone.png" alt="" class="imglogo"> <span class="about">9825632173</span>
+        </div>
+        <div class="cont">
+            <img src="../img/location.jpeg" alt="" class="imglogo"> <span class="about">jaipur,rajasthan</span>
+        </div>
+    
+    </div>
+    </div>
+    </section>
+    
+    <footer id="footer">
+        <p style="text-align: center;">Follow Us</p>
+        <div style="margin-top: 10px; text-align: center;">
+          Copyright &copy; www.hotelcrown.com |  All Rights Reserved.
+    </div>
+      </footer>
+
+</body>
+</html>

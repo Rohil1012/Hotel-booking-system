@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/room.css">
+    <link rel="stylesheet" href="../css/popup.css">
+    <link rel="stylesheet" media="screen and (max-width: 825px)" href="../css/roomphone.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav id="navbar">
+        <img src="../img/hotellogo.jpg" alt="hotelcrown" id="logo">
+        <ul>
+            <li class="navli"><a href="/">Home</a></li>
+            <li class="navli"><a href="rooms">Rooms</a></li>
+            <li class="navli"><a href="booking">Booking</a></li>
+            <li class="navli"><a href="contectus">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <!-- room deatils  -->
+        
+        <div class="continer">
+            <p id="bodyp">Guest Rooms</p>
+            <a href="gallery" id="gallery">Our gallery</a>
+            <div class="card-continer">
+
+                <div class="outercard">
+                    <!-- <div class="roomimage"> -->
+                    <img src="../img/room1.jpeg" alt="" class="roomimage">
+                    <!-- </div> -->
+                    <div>
+                        <h1>Grand Presidential Suite</h1>
+                        <p>It offers a large lounge overlooking the gardens,
+                            extending to the terrace, a royal dining room
+                            and a master bedroom with dressing area. Many
+                            international dignitaries, celebrities have had
+                            a memorable experience during their stay.(167 Sq
+                            Mt)</p>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn" onclick="show1()" class="roombtn">Room detail</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 style="text-align: center;">Grand Presidential Suite 1 Bedroom Garden View</h1>
+                                <div class="popup">
+                                    <div class="popup-con">
+                                        <h2>ROOM DETAILS</h2>
+                                        <p>It offers a large lounge overlooking the gardens, extending to the terrace, a
+                                            royal dining room and a master bedroom with dressing area. Many
+                                            international dignitaries, celebrities have had a memorable experience
+                                            during their stay.(167 Sq Mt)</p>
+
+                                        <h2>SIZE</h2>
+                                        <p>167 Sq Mt</p>
+
+                                        <h2>Occupancy Details</h2>
+                                        <p>Up to 3 guests. Max Adults: 2, Max Children: 1</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>BED & BATH</h2>
+                                        <p>Rollaway or Extra Beds are available on additional <br> charge on a per night
+                                            basis <br>
+                                            Pillow menu <br>
+                                            Softer beds & hard boards on request</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>OTHER CONVENIENCES</h2>
+                                        <p>24-hour in-room dining <br>
+                                            Premium Wi-Fi at nominal charge <br>
+                                            Complimentary newspapers <br>
+                                            Daily housekeeping & turndown service <br>
+                                            24-hour laundry service <br>
+                                            24-hour on-call doctor & nurse <br>
+                                            Tea-coffee maker <br>
+                                            Dual line telephones with voicemail & data capabilities <br>
+                                            Forest Essentials bath amenities <br>
+                                            Plush bathrobes & slippers <br>
+                                            Complimentary basic Wi-Fi <br>
+                                            Well-stocked minibar <br>
+                                            Yoga kit on request <br>
+                                            24-hour personalised butler service <br>
+                                            Bath butler <br>
+                                            Large flat-screen LCD TVs <br>
+                                            Iron & ironing board on request <br>
+                                            Red marble bathroom with Jacuzzi & double sinks <br>
+                                            Large flat-screen LCD TVs DVD player on request <br>
+                                            Living room with powder room, bedroom with dressing area & bathroom <br>
+                                            Bath menu & bath salts on request <br>
+                                            Posturepedic mattresses and Italian bed linen. <br>
+                                            Backlit makeup mirror.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="r-roomicon">
+                            <img src="../img/area.png" alt=""><span class="r-roomiconspan">167 Sq Mt</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/wifi.png" alt=""><span class="r-roomiconspan">Complimentry WiFi</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/people.png" alt=""><span class="r-roomiconspan">Up to 3 guest</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/bedType.png" alt=""><span class="r-roomiconspan">King</span>
+                        </div>
+                        <br>
+                        <p style="margin-left: 20px;">Staring Rate/Night</p><span style="font-size: 2rem; margin-left: 20px;
+                                margin-top: -5px;">100,000* &#8377;</span>
+                        <br>
+                        <a href="booking"><button class="r-roombook"> Book now</button></a>
+                    </div>
+                </div>
+
+                <div class="outercard">
+                    <!-- <div class="roomimage"> -->
+                    <img src="../img/room2.jpeg" alt="">
+                    <!-- </div> -->
+                    <div>
+                        <h1>Grand Royal Suite</h1>
+                        <p>These suites were the personal chambers of the Royal family with large French Windows over
+                            looking the gardens, provide a glimpse of royalty. These suites are equipped with a bedroom,
+                            drawing room and living room. (139-144 Sq Mt).</p>
+                        <!-- Trigger/Open The Modal -->
+                        <button id="myBtn2" onclick="show2()" class="roombtn">Room detail</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal2" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 style="text-align: center;">Grand Royal Suite 1 Bedroom Garden View</h1>
+                                <div class="popup">
+                                    <div class="popup-con">
+                                        <h2>ROOM DETAILS</h2>
+                                        <p>These suites were the personal chambers of the Royal family with large French
+                                            Windows over looking the gardens, provide a glimpse of royalty. These suites
+                                            are equipped with a bedroom, drawing room and living room. (139-144 Sq Mt).
+                                        </p>
+
+                                        <h2>SIZE</h2>
+                                        <p>139-144 Sq Mt</p>
+
+                                        <h2>Occupancy Details</h2>
+                                        <p>Up to 3 guests. Max Adults: 2, Max Children: 1</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>BED & BATH</h2>
+                                        <p>Rollaway or Extra Beds are available on additional <br> charge on a per night
+                                            basis <br>
+                                            Pillow menu <br>
+                                            Softer beds & hard boards on request</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>OTHER CONVENIENCES</h2>
+                                        <p>24-hour in-room dining <br>
+                                            Premium Wi-Fi at nominal charge <br>
+                                            Complimentary newspapers <br>
+                                            Daily housekeeping & turndown service <br>
+                                            24-hour laundry service <br>
+                                            24-hour on-call doctor & nurse <br>
+                                            Tea-coffee maker <br>
+                                            Dual line telephones with voicemail & data capabilities <br>
+                                            Forest Essentials bath amenities <br>
+                                            Plush bathrobes & slippers <br>
+                                            Complimentary basic Wi-Fi <br>
+                                            Well-stocked minibar <br>
+                                            Yoga kit on request <br>
+                                            24-hour personalised butler service <br>
+                                            Bath butler <br>
+                                            Large flat-screen LCD TVs <br>
+                                            Iron & ironing board on request <br>
+                                            Red marble bathroom with Jacuzzi & double sinks <br>
+                                            Large flat-screen LCD TVs DVD player on request <br>
+                                            Living room with powder room, bedroom with dressing area & bathroom <br>
+                                            Bath menu & bath salts on request <br>
+                                            Posturepedic mattresses and Italian bed linen. <br>
+                                            Backlit makeup mirror.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/area.png" alt=""><span class="r-roomiconspan">139-144 Sq Mt</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/wifi.png" alt=""><span class="r-roomiconspan">Comlimentry WiFi</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/people.png" alt=""><span class="r-roomiconspan">Up to 3 guest</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/bedType.png" alt=""><span class="r-roomiconspan">King</span>
+                        </div>
+                        <br>
+                        <p style="margin-left: 20px;">Staring Rate/Night</p><span style="font-size: 2rem; margin-left: 20px;
+                                margin-top: -5px;">80,000* &#8377;</span>
+                        <br>
+                        <a href="booking"><button class="r-roombook"> Book now</button></a>
+                    </div>
+                </div>
+
+                <div class="outercard">
+                    <!-- <div class="roomimage"> -->
+                    <img src="../img/room3.jpeg" alt="">
+                    <!-- </div> -->
+                    <div>
+                        <h1>Royal Suite</h1>
+                        <p>Some of the Royal Suites were the personal chambers of the Maharaja of Jaipur. The décor with
+                            transports to the bygone era of the royalty. These are 1 room suites divided into a living
+                            area and a bedroom. (102-107 Sq Mt).</p>
+
+                        <button id="myBtn3" onclick="show3()" class="roombtn">Room detail</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal3" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 style="text-align: center;">Royal Suite 1 Bedroom Garden View or Courtyard View</h1>
+                                <div class="popup">
+                                    <div class="popup-con">
+                                        <h2>ROOM DETAILS</h2>
+                                        <p>Some of the Royal Suites were the personal chambers of the Maharaja of
+                                            Jaipur. The décor with transports to the bygone era of the royalty. These
+                                            are 1 room suites divided into a living area and a bedroom. (102-107 Sq Mt).
+                                        </p>
+
+                                        <h2>SIZE</h2>
+                                        <p>102-107 Sq Mt</p>
+
+                                        <h2>Occupancy Details</h2>
+                                        <p>Up to 3 guests. Max Adults: 2, Max Children: 1</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>BED & BATH</h2>
+                                        <p>Rollaway or Extra Beds are available on additional <br> charge on a per night
+                                            basis <br>
+                                            Pillow menu <br>
+                                            Softer beds & hard boards on request</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>OTHER CONVENIENCES</h2>
+                                        <p>24-hour in-room dining <br>
+                                            Premium Wi-Fi at nominal charge <br>
+                                            Complimentary newspapers <br>
+                                            Daily housekeeping & turndown service <br>
+                                            24-hour laundry service <br>
+                                            24-hour on-call doctor & nurse <br>
+                                            Tea-coffee maker <br>
+                                            Dual line telephones with voicemail & data capabilities <br>
+                                            Forest Essentials bath amenities <br>
+                                            Plush bathrobes & slippers <br>
+                                            Complimentary basic Wi-Fi <br>
+                                            Well-stocked minibar <br>
+                                            Yoga kit on request <br>
+                                            24-hour personalised butler service <br>
+                                            Bath butler <br>
+                                            Large flat-screen LCD TVs <br>
+                                            Iron & ironing board on request <br>
+                                            Red marble bathroom with Jacuzzi & double sinks <br>
+                                            Large flat-screen LCD TVs DVD player on request <br>
+                                            Living room with powder room, bedroom with dressing area & bathroom <br>
+                                            Bath menu & bath salts on request <br>
+                                            Posturepedic mattresses and Italian bed linen. <br>
+                                            Backlit makeup mirror.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/area.png" alt=""><span class="r-roomiconspan">102-107 Sq Mt</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/wifi.png" alt=""><span class="r-roomiconspan">Complimentry WiFi</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/people.png" alt=""><span class="r-roomiconspan">Up to 3 guest</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/bedType.png" alt=""><span class="r-roomiconspan">King</span>
+                        </div>
+                        <br>
+                        <p style="margin-left: 20px;">Staring Rate/Night</p><span style="font-size: 2rem; margin-left: 20px;
+                            margin-top: -5px;">60,000* &#8377;</span>
+                        <br>
+                        <a href="booking"><button class="r-roombook"> Book now</button></a>
+                    </div>
+                </div>
+
+                <div class="outercard">
+                    <!-- <div class="roomimage"> -->
+                    <img src="../img/room5.jpeg" alt=""  class="roomimage">
+                    <!-- </div> -->
+                    <div>
+                        <h1>Historical Suite</h1>
+                        <p>While maintaining the palace's historic charm, the suites are decorated with Rajasthani
+                            artwork and transparent fabrics and have been recently renovated. These suites have a cozy
+                            atmosphere with marble or wood floors. These are 1-room suites divided into a living room
+                            and a bedroom. (65-70 Square meter)</p>
+
+                        <button id="myBtn4" onclick="show4()" class="roombtn">Room detail</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal4" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 style="text-align: center;">Historical Suite 1 Bedroom Garden View or Courtyard View
+                                </h1>
+                                <div class="popup">
+                                    <div class="popup-con">
+                                        <h2>ROOM DETAILS</h2>
+                                        <p>While maintaining the palace's historic charm, the suites are decorated with
+                                            Rajasthani artwork and transparent fabrics and have been recently renovated.
+                                            These suites have a cozy atmosphere with marble or wood floors. These are
+                                            1-room suites divided into a living room and a bedroom. (65-70 Square meter)
+                                        </p>
+
+                                        <h2>SIZE</h2>
+                                        <p>65-70 Sq Mt</p>
+
+                                        <h2>SIGNATURE FEATURE</h2>
+                                        <p>Oriental architecture with grand arched doorways</p>
+
+                                        <h2>Occupancy Details</h2>
+                                        <p>Up to 3 guests. Max Adults: 2, Max Children: 1</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>BED & BATH</h2>
+                                        <p>Rollaway or Extra Beds are available on additional <br> charge on a per night
+                                            basis <br>
+                                            Pillow menu <br>
+                                            Softer beds & hard boards on request</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>OTHER CONVENIENCES</h2>
+                                        <p>24-hour in-room dining <br>
+                                            Premium Wi-Fi at nominal charge <br>
+                                            Complimentary newspapers <br>
+                                            Daily housekeeping & turndown service <br>
+                                            24-hour laundry service <br>
+                                            24-hour on-call doctor & nurse <br>
+                                            Tea-coffee maker <br>
+                                            Dual line telephones with voicemail & data capabilities <br>
+                                            Forest Essentials bath amenities <br>
+                                            Plush bathrobes & slippers <br>
+                                            Complimentary basic Wi-Fi <br>
+                                            Well-stocked minibar <br>
+                                            Yoga kit on request <br>
+                                            24-hour personalised butler service <br>
+                                            Bath butler <br>
+                                            Large flat-screen LCD TVs <br>
+                                            Iron & ironing board on request <br>
+                                            Red marble bathroom with Jacuzzi & double sinks <br>
+                                            Large flat-screen LCD TVs DVD player on request <br>
+                                            Living room with powder room, bedroom with dressing area & bathroom <br>
+                                            Bath menu & bath salts on request <br>
+                                            Posturepedic mattresses and Italian bed linen. <br>
+                                            Backlit makeup mirror.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="r-roomicon">
+                            <img src="../img/area.png" alt=""><span class="r-roomiconspan">65-70 Sq Mt</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/wifi.png" alt=""><span class="r-roomiconspan">Complimentry WiFi</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/people.png" alt=""><span class="r-roomiconspan">Up to 3 guest</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/bedType.png" alt=""><span class="r-roomiconspan">King</span>
+                        </div>
+                        <br>
+                        <p style="margin-left: 20px;">Staring Rate/Night</p><span style="font-size: 2rem; margin-left: 20px;
+                        margin-top: -5px;">45,000* &#8377;</span>
+                        <br>
+                        <a href="booking"><button class="r-roombook"> Book now</button></a>
+                    </div>
+                </div>
+
+                <div class="outercard">
+                    <!-- <div class="roomimage"> -->
+                    <img src="../img/room6.jpeg" alt="">
+                    <!-- </div> -->
+                    <div>
+                        <h1>Palace Room</h1>
+                        <p>Newly renovated rooms, rich in terms of textures and colors, each Palace room has been
+                            redesigned for comfort. A four poster bed or Twin bed, walk in wardrobes and a spacious
+                            bathroom which will help you sink into the palatial experience. Size 46-51 Sq Mt.</p>
+
+                        <button id="myBtn5" onclick="show5()" class="roombtn">Room detail</button>
+
+                        <!-- The Modal -->
+                        <div id="myModal5" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 style="text-align: center;">Palace Room 1 Bedroom Garden View or Courtyard View</h1>
+                                <div class="popup">
+                                    <div class="popup-con">
+                                        <h2>ROOM DETAILS</h2>
+                                        <p>Newly renovated rooms, rich in terms of textures and colors, each Palace room
+                                            has been redesigned for comfort. A four poster bed or Twin bed, walk in
+                                            wardrobes and a spacious bathroom which will help you sink into the palatial
+                                            experience. Size 46-51 Sq Mt.</p>
+
+                                        <h2>SIZE</h2>
+                                        <p>46-51 Sq Mt</p>
+
+                                        <h2>SIGNATURE FEATURE</h2>
+                                        <p>spacious rooms and four poster bedss</p>
+
+                                        <h2>Occupancy Details</h2>
+                                        <p>Up to 3 guests. Max Adults: 2, Max Children: 1</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>BED & BATH</h2>
+                                        <p>Suit, skirt & padded hangers <br>
+                                            Pillow menu <br>
+                                            Softer beds & hard boards on request</p>
+                                    </div>
+                                    <div class="popup-con">
+                                        <h2>OTHER CONVENIENCES</h2>
+                                        <p>24-hour in-room dining <br>
+                                            Premium Wi-Fi at nominal charge <br>
+                                            Complimentary newspapers <br>
+                                            Daily housekeeping & turndown service <br>
+                                            24-hour laundry service <br>
+                                            24-hour on-call doctor & nurse <br>
+                                            Tea-coffee maker <br>
+                                            Dual line telephones with voicemail & data capabilities <br>
+                                            Forest Essentials bath amenities <br>
+                                            Plush bathrobes & slippers <br>
+                                            Complimentary basic Wi-Fi <br>
+                                            Well-stocked minibar <br>
+                                            Yoga kit on request <br>
+                                            24-hour personalised butler service <br>
+                                            Bath butler <br>
+                                            Large flat-screen LCD TVs <br>
+                                            Iron & ironing board on request <br>
+                                            Red marble bathroom with Jacuzzi & double sinks <br>
+                                            Large flat-screen LCD TVs DVD player on request <br>
+                                            Living room with powder room, bedroom with dressing area & bathroom <br>
+                                            Bath menu & bath salts on request <br>
+                                            Posturepedic mattresses and Italian bed linen. <br>
+                                            Backlit makeup mirror.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/area.png" alt=""><span class="r-roomiconspan">46-51 Sq Mt</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/wifi.png" alt=""><span class="r-roomiconspan">Complimentry WiFi</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/people.png" alt=""><span class="r-roomiconspan">Up to 3 guest</span>
+                        </div>
+                        <div class="r-roomicon">
+                            <img src="../img/bedType.png" alt=""><span class="r-roomiconspan">King</span>
+                        </div>
+                        <br>
+                        <p style="margin-left: 20px;">Staring Rate/Night</p><span style="font-size: 2rem; margin-left: 20px;
+                    margin-top: -5px;">28,000* &#8377;</span>
+                        <br>
+                        <a href="booking"><button class="r-roombook"> Book now</button></a>
+                    </div>
+                </div>
+
+                <div class="outercard">
+                    <!-- <div class="roomimage"> -->
+                    <img src="../img/room4.jpeg" alt=""  class="roomimage">
+                    <!-- </div> -->
+                    <div>
+                        <h1>Luxury Room</h1>
+                        <p>The Luxury Rooms are traditionally decorated with period furniture and provide an array of
+                            quality amenities. With garden view from the palace’s top floor, they reflect old world
+                            charm.</p>
+                        <button id="myBtn6" onclick="show6()"  class="roombtn">Room detail</button>
+                        <div id="myModal6" class="modal">
+
+                            <!-- Modal content -->
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <h1 style="text-align: center;">Luxury Room Garden View</h1>
+                                <div class="popup">
+                                        <div class="popup-con">
+                                        <h2>ROOM DETAILS</h2>
+                                        <p>The Luxury Rooms are traditionally decorated with period furniture and
+                                            provide an array of quality amenities. With garden view from the palace’s
+                                            top floor, they reflect old world charm.</p>
+
+                                        <h2>SIZE</h2>
+                                        <p>28-33 Sq Mt</p>
+
+                                        <h2>SIGNATURE FEATURE</h2>
+                                        <p>Period décor with modern amenities</p>
+
+                                        <h2>Occupancy Details</h2>
+                                        <p>Up to 2 guests. Max Adults: 2, Max Children: 0</p>
+                                        </div>
+                                        <div class="popup-con">
+                                        <h2>BED & BATH</h2>
+                                        <p>Suit, skirt & padded hangers <br>
+                                            Infant cribs for infants aged 0-2 years available on <br> request on
+                                            complimentary basis <br>
+                                            Rollaway or Extra Beds are available on additional <br> charge on a per
+                                            night basis <br>
+                                            Pillow menu <br>
+                                            Softer beds & hard boards on request</p>
+                                        </div>
+                                        <div class="popup-con">
+                                        <h2>OTHER CONVENIENCES</h2>
+                                        <p>24-hour in-room dining <br>
+                                            Premium Wi-Fi at nominal charge <br>
+                                            Complimentary newspapers <br>
+                                            Daily housekeeping & turndown service <br>
+                                            24-hour laundry service <br>
+                                            24-hour on-call doctor & nurse <br>
+                                            Tea-coffee maker <br>
+                                            Dual line telephones with voicemail & data capabilities <br>
+                                            Forest Essentials bath amenities <br>
+                                            Plush bathrobes & slippers <br>
+                                            Complimentary basic Wi-Fi <br>
+                                            Well-stocked minibar <br>
+                                            Yoga kit on request <br>
+                                            24-hour personalised butler service <br>
+                                            Bath butler <br>
+                                            Large flat-screen LCD TVs <br>
+                                            Iron & ironing board on request <br>
+                                            Red marble bathroom with Jacuzzi & double sinks <br>
+                                            Large flat-screen LCD TVs DVD player on request <br>
+                                            Living room with powder room, bedroom with dressing area & bathroom <br>
+                                            Bath menu & bath salts on request <br>
+                                            Posturepedic mattresses and Italian bed linen. <br>
+                                            Backlit makeup mirror.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                                <div class="r-roomicon">
+                                    <img src="../img/area.png" alt=""><span class="r-roomiconspan">28-33 Sq Mt</span>
+                                </div>
+                                <div class="r-roomicon">
+                                    <img src="../img/wifi.png" alt=""><span class="r-roomiconspan">Complimentry
+                                        WiFi</span>
+                                </div>
+                                <div class="r-roomicon">
+                                    <img src="../img/people.png" alt=""><span class="r-roomiconspan">Up to 2
+                                        guest</span>
+                                </div>
+                                <div class="r-roomicon">
+                                    <img src="../img/bedType.png" alt=""><span class="r-roomiconspan">King</span>
+                                </div>
+                                <br>
+                                <p style="margin-left: 20px;">Staring Rate/Night</p><span
+                                    style="font-size: 2rem; margin-left: 20px; margin-top: -5px;">20,000* &#8377;</span>
+                                <br>
+                                <a href="booking"><button class="r-roombook"> Book now</button></a>
+                        
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+
+    <footer id="footer">
+        <p style="text-align: center;">Follow Us</p>
+        <div style="margin-top: 10px; text-align: center;">
+          Copyright &copy; www.hotelcrown.com |  All Rights Reserved.
+    </div>
+      </footer>
+    <script src="../js/pop.js"></script>
+</body>
+
+</html>

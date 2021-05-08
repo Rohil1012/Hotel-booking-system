@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" media="screen and (max-width:580px)" href="../css/bookingphpphone.css">
+    <link rel="stylesheet" href="../css/bookingphp.css">
+    <script src="../js/booking.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/pdf.css" >
+    <script src="../js/pdf.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+   
+
+</head>
+<body>
+    <nav id="navbar">
+        <img src="../img/hotellogo.jpg" alt="hotelcrown" id="logo">
+        <ul>
+            <li class="navli"><a href="/">Home</a></li>
+            <li class="navli"><a href="rooms">Rooms</a></li>
+            <li class="navli"><a href="booking">Booking</a></li>
+            <li class="navli"><a href="contectus">Contact us</a></li>
+        </ul>
+    </nav>
+    
+   
+        <div class="card" id="invoice">
+         <div class="info"> 
+         <div class="lablel">
+                <label>Name :<%= data.name1 %></label>     
+            </div>
+
+            <div class="lablel">
+            <label>Phone number : <%= data.phone1 %></label> 
+            </div>
+
+            <div class="lablel">
+            <label>Email : <%= data.email1 %> </label> 
+            </div>
+
+            <div class="lablel">
+            <label>City : <%= data.city1 %> </label> 
+            </div>
+
+            <div class="lablel">
+            <label>Room Type : <%= data.room1 %> </label> 
+            </div>
+
+            <div class="lablel">
+            <label> <strong> Check In : <%= data.checkin1 %>  </strong> </label>
+            </div>
+
+            <div class="lablel">
+            <label> <strong> Check Out : <%= data.checkout1 %>  </strong> </label> 
+            </div>
+
+            <div class="lablel">
+            <label>Number of room : <%= data.numberofroom1 %> </label> 
+            </div>
+
+            <div class="lablel">
+            <label>Adult : <%= data.adult1 %> </label> 
+            </div>
+
+            <div class="lablel">
+            <label>Childer : <%= data.children1 %> </label> 
+            </div>
+
+            <div class="lablel">
+            <label>Pickup Point : <%= data.pickuppoint1 %> </label> 
+            </div>
+
+
+               
+            <div class="lablel">
+            <label>Room Rent:   <%= data.rent1 %>     </label> 
+            </div>
+
+            <div class="lablel">
+            <label>GST(18%) : <%= data.gst1 %> </label> 
+            </div>
+
+            <div class="lablel">
+            <label> <strong>  Payable Amount:  <%= data.payble1 %> </strong></label> 
+            </div>
+
+           
+           
+                <form action="/booking1" method="POST">
+                       <input type="submit" value="Confirm" class="bttttn">
+                   </form> 
+        </div>  
+        </div>    
+      
+        <!-- <button class="btn btn-dark bttttn"  id="download">download pdf</button> -->
+    
+
+   
+    <footer id="footer">
+        <p style="text-align: center;">Follow Us</p>
+        <div style="margin-top: 10px; text-align: center;">
+          Copyright &copy; www.hotelcrown.com |  All Rights Reserved.
+    </div>
+      </footer>
+</body>
+
+</html>
+
